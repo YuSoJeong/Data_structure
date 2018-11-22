@@ -110,7 +110,7 @@
     
        >  Noerrors.txt 
        
-        ![image](https://user-images.githubusercontent.com/44575829/48901036-809c4f00-ee97-11e8-9c50-44afd402d83b.png)
+   ![image](https://user-images.githubusercontent.com/44575829/48901036-809c4f00-ee97-11e8-9c50-44afd402d83b.png)
         
        {{
        [[
@@ -123,7 +123,7 @@
        
       >  Closeerrors.txt 
       
-      ![image](https://user-images.githubusercontent.com/44575829/48901060-91e55b80-ee97-11e8-9f57-d92e7658fc76.png)
+  ![image](https://user-images.githubusercontent.com/44575829/48901060-91e55b80-ee97-11e8-9f57-d92e7658fc76.png)
       
       {{{
       [[[[
@@ -135,7 +135,7 @@
        
        >  Openerrors.txt 
        
-       ![image](https://user-images.githubusercontent.com/44575829/48901100-b2151a80-ee97-11e8-9ed5-39938d0d8684.png)
+  ![image](https://user-images.githubusercontent.com/44575829/48901100-b2151a80-ee97-11e8-9ed5-39938d0d8684.png)
        
        [[{}
        ]]
@@ -146,7 +146,7 @@
       
        >  Matcherrors.txt
        
-       ![image](https://user-images.githubusercontent.com/44575829/48901128-c5c08100-ee97-11e8-992b-88809ced10d9.png)
+  ![image](https://user-images.githubusercontent.com/44575829/48901128-c5c08100-ee97-11e8-992b-88809ced10d9.png)
 
        
        {{[[
@@ -199,7 +199,7 @@
 
   # 결과
       
-    ![image](https://user-images.githubusercontent.com/44575829/48900767-ad039b80-ee96-11e8-8126-a842bb81429c.png)
+ ![image](https://user-images.githubusercontent.com/44575829/48900767-ad039b80-ee96-11e8-8126-a842bb81429c.png)
   
       랜덤 난수를 이용했으므로 매번 주문 개수가 다를 것 이다.
   
