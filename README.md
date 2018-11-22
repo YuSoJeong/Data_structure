@@ -1,6 +1,6 @@
 # Data_structure
 
-자료구조( STACK , QUEUE )의 ADT 를 C 프로그래밍의 연결리스크 또는 배열로 구현하여 응용한 예제
+자료구조( STACK , QUEUE )의 ADT 를 C 프로그래밍의 연결리스 또는 배열로 구현하여 응용한 예제
 
 # stackBottom.cpp
 
