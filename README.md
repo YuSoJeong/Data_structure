@@ -23,13 +23,16 @@
       
       STACK* stack; stack=createStack(); 스택을 가르키는 META DATA 를 생성하였다.
       
-      for((*i)=0;(*i)<9;(*i)++){
+             int i=10;
+	       int j=11;
+	       int k=13;
 
-        pushStack(stack,i); 
-
-       }
-       여기서 i는 int 형의 포인터 이므로 *으로 값에 접근하여 META 에 스택을 연결시켜준다.
-       스택에 1부터 9까지를 차곡차곡 쌓는 느낌이다.
+		 pushStack(stack,&i);
+		 pushStack(stack,&k);
+		 pushStack(stack,&j);
+          
+       
+       STACK에 10,11,13 데이터를 차곡차곡 쌓는 느낌이다.
        
        >header file
        
@@ -37,7 +40,10 @@
        
        
  # 결과
-  
+
+![image](https://user-images.githubusercontent.com/44575829/48900865-edfbb000-ee96-11e8-9428-e8899230bbba.png)
+
+
     printf("%d",*(int*)stackBottom(stack));   스택은 LIFO 방식이지만 이 정의된 함수를 사용하면 FIFO 방식으로 출력시킬수 있다.
     
     destroyStack(stack);  메모리의 효율성을 위하여 스택을 지워주고, META 를 지워준다.
@@ -62,6 +68,8 @@
       
  
  # 결과
+ 
+ ![image](https://user-images.githubusercontent.com/44575829/48901158-df61c880-ee97-11e8-98ca-101e12db4af4.png)
       
       ex) Enter an infix formula :(1+(2*3))
           The postfix formula id : 123*+
@@ -98,8 +106,12 @@
       
   
   # 결과
-     
+  
+    
        >  Noerrors.txt 
+       
+        ![image](https://user-images.githubusercontent.com/44575829/48901036-809c4f00-ee97-11e8-9c50-44afd402d83b.png)
+        
        {{
        [[
        ((
@@ -110,6 +122,9 @@
        Parsing id OK : 6 Line parsed
        
       >  Closeerrors.txt 
+      
+      ![image](https://user-images.githubusercontent.com/44575829/48901060-91e55b80-ee97-11e8-9f57-d92e7658fc76.png)
+      
       {{{
       [[[[
       ]]]]
@@ -119,6 +134,9 @@
        
        
        >  Openerrors.txt 
+       
+       ![image](https://user-images.githubusercontent.com/44575829/48901100-b2151a80-ee97-11e8-9ed5-39938d0d8684.png)
+       
        [[{}
        ]]
        ]
@@ -126,7 +144,11 @@
       Open parentheses missing at line 3
        
       
-       Matcherrors.txt 
+       >  Matcherrors.txt
+       
+       ![image](https://user-images.githubusercontent.com/44575829/48901128-c5c08100-ee97-11e8-992b-88809ced10d9.png)
+
+       
        {{[[
        ]]
        ))
@@ -177,14 +199,7 @@
 
   # 결과
       
-      Simulation Report!!
-      
-      [Order Count]
-      - Cheese Burger : 74
-      - Bulgogi Burger: 88
-      - Doubel Burger: 78
-      
-      ※ Waiting room size : 100
+    ![image](https://user-images.githubusercontent.com/44575829/48900767-ad039b80-ee96-11e8-8126-a842bb81429c.png)
   
       랜덤 난수를 이용했으므로 매번 주문 개수가 다를 것 이다.
   
